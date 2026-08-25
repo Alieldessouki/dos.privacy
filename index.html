@@ -103,20 +103,21 @@
 
       <section class="privacy" id="privacy">
         <div class="privacy__card">
-          <p class="eyebrow">Effective December 01, 2025</p>
+          <p class="eyebrow">Effective August 25, 2026</p>
           <h2>Privacy Policy</h2>
           <p>
-            Do&#39;s is designed to keep your personal information on your device.
-            This policy describes how the app handles the data you create while
-            managing tasks and lists.
+            Do&#39;s keeps the tasks and lists you create on your device. This policy
+            describes what stays local, what leaves the device so we can fix
+            problems and improve the app, and who processes it.
           </p>
 
           <h3>Information we collect</h3>
           <ul>
             <li>
               <strong>Task &amp; list content.</strong> Titles, optional details,
-              emojis, and due dates are saved locally in Core Data. They are
-              never transmitted outside your device.
+              emojis, due dates, and reminders are saved locally in Core Data.
+              We do not upload your lists, and there is no account or cloud sync.
+              The exception is described under &ldquo;Bug reports&rdquo; below.
             </li>
             <li>
               <strong>Speech dictation.</strong> When you hold the microphone
@@ -127,31 +128,81 @@
               tasks.
             </li>
             <li>
-              <strong>App diagnostics.</strong> Do&#39;s does not include analytics,
-              crash reporting, or advertising SDKs.
+              <strong>Diagnostics &amp; crash reports.</strong> Do&#39;s uses Luciq to
+              detect crashes and performance problems. When the app crashes or
+              runs slowly, Luciq receives a crash log, performance measurements
+              such as launch time, basic device and app information, and a record
+              of in-app interactions such as which screens were opened.
+            </li>
+            <li>
+              <strong>Bug reports.</strong> If you shake your device or tap the
+              feedback button to report a problem, Do&#39;s sends your message along
+              with a screenshot of the app at that moment. Text you have typed
+              into input fields is masked automatically, but anything else
+              visible on screen &mdash; including list and task names &mdash; may
+              appear in that screenshot. You may also choose to attach a photo
+              from your library or a voice note; those are only ever sent when
+              you attach them yourself.
+            </li>
+            <li>
+              <strong>Feature management.</strong> Do&#39;s uses LaunchDarkly to turn
+              features on and off without shipping a new version, and to release
+              changes gradually. LaunchDarkly receives a randomly generated
+              identifier for your installation along with basic device and app
+              information so it can decide which features to enable.
+            </li>
+            <li>
+              <strong>Identifiers.</strong> On first launch the app generates a
+              random identifier for your installation, plus a randomly assigned
+              display name and placeholder email address used to label reports.
+              These are not derived from your real name, email, or Apple Account,
+              and we make no attempt to link them to your real-world identity.
             </li>
           </ul>
 
           <h3>How your information is used</h3>
           <p>
-            Task and list data is used solely to display, sort, and sync content
-            inside the app experience: lists, task detail, calendar view, and the
-            celebratory completion screen. There is no server side processing or
-            aggregation.
+            Task and list data is used solely to display, sort, and organise
+            content inside the app: lists, task detail, calendar view, the stats
+            screen, and the celebratory completion screen. Diagnostic, crash, and
+            interaction data is used to find and fix defects, to understand which
+            features are being used, and to decide whether a release is healthy
+            enough to continue rolling out. We do not use any of it for
+            advertising, we do not sell it, and Do&#39;s does not track you across
+            other companies&rsquo; apps or websites.
           </p>
 
           <h3>Data storage &amp; retention</h3>
           <p>
-            All data remains on your device until you delete it or uninstall the
-            app. Removing a list permanently removes its tasks. Deleting the app
-            removes all associated data from your device.
+            Your tasks and lists remain on your device until you delete them or
+            uninstall the app. Removing a list permanently removes its tasks.
+            Deleting the app removes all associated data from your device.
+            Diagnostic reports, crash reports, and any bug reports you submit are
+            stored by Luciq on our behalf and retained according to their
+            retention policy; feature-flag data is retained by LaunchDarkly.
           </p>
 
           <h3>Third parties</h3>
           <p>
-            Do&#39;s does not share information with third parties. The only external
-            service touched is Apple’s speech recognition framework, which
-            follows Apple’s privacy commitments.
+            Do&#39;s shares data with two service providers, both acting on our
+            behalf:
+          </p>
+          <ul>
+            <li>
+              <strong>Luciq</strong> &mdash; crash reporting, performance
+              monitoring, and bug reports.
+              <a href="https://www.luciq.ai/privacy-policy" rel="noopener">Luciq privacy policy</a>
+            </li>
+            <li>
+              <strong>LaunchDarkly</strong> &mdash; feature flags and gradual
+              rollouts.
+              <a href="https://launchdarkly.com/policies/privacy/" rel="noopener">LaunchDarkly privacy policy</a>
+            </li>
+          </ul>
+          <p>
+            Do&#39;s also uses Apple&rsquo;s speech recognition framework for
+            dictation, which follows Apple&rsquo;s privacy commitments. We do not
+            sell your information or share it with advertisers or data brokers.
           </p>
 
           <h3>Security</h3>
@@ -170,6 +221,16 @@
             <li>
               Disable speech recognition in iOS settings if you prefer not to
               use dictation.
+            </li>
+            <li>
+              Bug reports are only ever sent when you choose to send one. Photos
+              and voice notes are attached solely at your initiative, and you can
+              decline the photo library and microphone permissions in iOS
+              settings.
+            </li>
+            <li>
+              Contact us at the address below to ask what diagnostic data is held
+              for your installation, or to request its deletion.
             </li>
           </ul>
 
